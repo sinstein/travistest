@@ -6,3 +6,4 @@ addons:
   browserstack:
     username: "sauravkothari2"
     access_key: "XVBzv9SHzyxayo1Csxbs"
+    verbose: true
