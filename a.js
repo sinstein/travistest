@@ -1,5 +1,4 @@
 var http = require('http');
-var sleep = require('sleep');
 
 var options = {
   host: 'localhost',
@@ -8,7 +7,7 @@ var options = {
   method: 'GET'
 }
 
-sleep.sleep(60);
+
 var req = http.request(options, function(res){
   var response = "";
   
@@ -33,4 +32,6 @@ var req = http.request(options, function(res){
   })
 });
 
-req.end();
+setTimeout(function(){
+  req.end();
+}, 50000);
