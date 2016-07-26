@@ -40,5 +40,5 @@ setTimeout(function(){
 
   req.end();
 
-}, 5);
+}, 60000);
 
