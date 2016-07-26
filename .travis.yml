@@ -3,6 +3,6 @@ node_js:
   - "4.3"
   
 addons:
-browserstack:
-  username: "sauravkothari2"
-  access_key: "XVBzv9SHzyxayo1Csxbs"
+  browserstack:
+    username: "sauravkothari2"
+    access_key: "XVBzv9SHzyxayo1Csxbs"
