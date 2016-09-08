@@ -12,7 +12,7 @@ setTimeout(function(){
   console.log(process.env.BROWSERSTACK_USER);
   console.log(process.env.BROWSERSTACK_ACCESS_KEY);
   console.log(process.env.BROWSERSTACK_LOCAL);
-  console.log(process.env.BROWSERSTACK_LOCAL_IDENTIFIER);
+  //console.log(process.env.BROWSERSTACK_LOCAL_IDENTIFIER);
 
   var req = http.request(options, function(res){
     var response = "";
